@@ -1,0 +1,52 @@
+"D:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=C:/MinGW/bin/c++.exe -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" F:\Dynamic_allocation_doha_eid\task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory
+-- The C compiler identification is GNU 11.1.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/w/gcc/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: C:/MinGW/bin/c++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/c++.exe - broken
+CMake Error at D:/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/CMakeTestCXXCompiler.cmake:59 (message):
+  The C++ compiler
+
+    "C:/MinGW/bin/c++.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: F:/Dynamic_allocation_doha_eid/task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_90b8b/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_90b8b.dir\build.make CMakeFiles/cmTC_90b8b.dir/build
+    mingw32-make.exe[1]: Entering directory 'F:/Dynamic_allocation_doha_eid/task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building CXX object CMakeFiles/cmTC_90b8b.dir/testCXXCompiler.cxx.obj
+    C:\MinGW\bin\c++.exe    -o CMakeFiles\cmTC_90b8b.dir\testCXXCompiler.cxx.obj -c F:\Dynamic_allocation_doha_eid\task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+    Linking CXX executable cmTC_90b8b.exe
+    "D:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90b8b.dir\link.txt --verbose=1
+    "D:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_90b8b.dir/objects.a
+    C:\Users\w\gcc\bin\ar.exe cr CMakeFiles\cmTC_90b8b.dir/objects.a @CMakeFiles\cmTC_90b8b.dir\objects1.rsp
+    C:\MinGW\bin\c++.exe -Wl,--whole-archive CMakeFiles\cmTC_90b8b.dir/objects.a -Wl,--no-whole-archive -o cmTC_90b8b.exe -Wl,--out-implib,libcmTC_90b8b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_90b8b.dir\linklibs.rsp
+    c++.exe: fatal error: -fuse-linker-plugin, but liblto_plugin-0.dll not found
+    compilation terminated.
+    CMakeFiles\cmTC_90b8b.dir\build.make:99: recipe for target 'cmTC_90b8b.exe' failed
+    mingw32-make.exe[1]: *** [cmTC_90b8b.exe] Error 1
+    mingw32-make.exe[1]: Leaving directory 'F:/Dynamic_allocation_doha_eid/task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:126: recipe for target 'cmTC_90b8b/fast' failed
+    mingw32-make.exe: *** [cmTC_90b8b/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "F:/Dynamic_allocation_doha_eid/task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "F:/Dynamic_allocation_doha_eid/task1-dynamic-memory-allocation-2abc320-task-1_dynamic_memory/cmake-build-debug/CMakeFiles/CMakeError.log".
